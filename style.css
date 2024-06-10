@@ -1,0 +1,85 @@
+body{
+    background-color: #EEEEEE;;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.navbar-menu{
+    display: flex;    
+    gap: 40px;
+    list-style: none;
+}
+
+.about-me{
+    
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;   
+    
+}
+
+
+h1{
+    text-align: start;
+}
+
+.div-heading{
+    margin-bottom: 40px;
+}
+
+
+.profile-photo{
+    width: 800px;
+    margin-bottom: 30px;  
+        
+}
+
+.about-me-text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;    
+    margin: auto;
+       
+}
+
+.skills-block{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 90px;     
+
+}
+
+.skills-block-parapraph{
+    margin-bottom: 60px;
+}
+
+.skills-list{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto; 
+    gap: 50px;
+    list-style: none;
+    
+}
+
+.portfolio{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-pic{
+    width: 800px;
+    margin-bottom: 17px;    
+}
+
+.portfolio-parapraph{
+    margin-bottom: 55px;
+}
