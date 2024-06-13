@@ -1,6 +1,24 @@
 body{
-    background-color: #EEEEEE;;
+    background-color: #EEEEEE;
+    font-family: "Open Sans", sans-serif;;
 }
+
+.navbar:hover{
+   font-weight: bolder; 
+   color: #070707;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);    
+   
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #070707;
+    
+}
+
 
 .navbar{
     display: flex;
@@ -28,6 +46,11 @@ body{
 
 h1{
     text-align: start;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 .div-heading{
@@ -52,7 +75,7 @@ h1{
 .skills-block{
     text-align: center;
     width: 800px;
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: 90px;     
 
 }
@@ -64,7 +87,7 @@ h1{
 .skills-list{
     display: flex;
     flex-direction: row-reverse;
-    margin: auto; 
+    margin: 0 auto; 
     gap: 50px;
     list-style: none;
     
@@ -81,5 +104,39 @@ h1{
 }
 
 .portfolio-parapraph{
-    margin-bottom: 55px;
+    margin-bottom: 60px;
+}
+
+.footer-container{
+    text-align: center;
+    height: 400px;
+}
+
+.btn{
+    font-family: ;
+    background-color: #070707;
+    color: white;
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    padding: 0px, 16px, 0px, 16px;
+    margin-bottom: 25px;
+}
+
+.btn:hover {opacity: 0.5;
+    transform: scale(1.05);
+}
+
+.social-links{
+    margin-bottom: 60px;
+}
+
+.social-links:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+}
+
+.like-me-parapraph{
+    font-size: 14px;
+    color: #828282;
 }
