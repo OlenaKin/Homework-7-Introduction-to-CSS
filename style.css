@@ -1,7 +1,12 @@
 body{
-    background-color: #EEEEEE;
-    font-family: "Open Sans", sans-serif;;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .navbar:hover{
    font-weight: bolder; 
@@ -34,33 +39,48 @@ a:visited{
     list-style: none;
 }
 
+.overall-container{
+    width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .about-me{
     
     text-align: center;
-    width: 800px;
+    width: 970px;
     margin: auto;
-    margin-bottom: 50px;   
+    margin-bottom: 0; 
     
-}
+    
+    }  
+    
 
-
-h1{
+.about-me h1{
+    margin-left: 5.15rem;
     text-align: start;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
+
+
+.about-me-text{
+    
+    background-color: #F6F6F6;
+    padding: 100px;
+}
+
+
 
 h2{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
-.div-heading{
-    margin-bottom: 40px;
-}
+
 
 
 .profile-photo{
     width: 800px;
-    margin-bottom: 30px;  
+    margin-bottom: 0; 
         
 }
 
@@ -68,13 +88,13 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-direction: column;    
-    margin: auto;
+    
        
 }
 
 .skills-block{
-    text-align: center;
-    width: 800px;
+   margin: 0 auto;
+    text-align: center;    
     margin: 0 auto;
     margin-bottom: 90px;     
 
@@ -86,6 +106,7 @@ h2{
 
 .skills-list{
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
     margin: 0 auto; 
     gap: 50px;
@@ -96,6 +117,8 @@ h2{
 .portfolio{
     text-align: center;
     margin-bottom: 40px;
+    background-color: #F6F6F6;
+    padding: 30px;
 }
 
 .portfolio-pic{
